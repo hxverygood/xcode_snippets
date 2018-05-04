@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mshowsuccess</string>
+	<string>mweakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[SVProgressHUD showSuccessWithStatus:&lt;#success message#&gt;];</string>
+	<string>__weak typeof(self) weakself = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AC0A48C0-9531-4B8F-A60B-42408099A9C8</string>
+	<string>079682F3-E24A-4602-A187-01E90E639354</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SVProgressHUD ShowSuccess</string>
+	<string>Weak Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

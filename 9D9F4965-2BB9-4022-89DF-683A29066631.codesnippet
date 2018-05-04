@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mshowsuccess</string>
+	<string>mcompletioninblock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[SVProgressHUD showSuccessWithStatus:&lt;#success message#&gt;];</string>
+	<string>if (completion) {
+    completion(&lt;# #&gt;);
+                }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AC0A48C0-9531-4B8F-A60B-42408099A9C8</string>
+	<string>9D9F4965-2BB9-4022-89DF-683A29066631</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SVProgressHUD ShowSuccess</string>
+	<string>Completion In Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

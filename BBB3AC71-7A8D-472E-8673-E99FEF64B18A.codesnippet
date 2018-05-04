@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mshowsuccess</string>
+	<string>apisuccess</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[SVProgressHUD showSuccessWithStatus:&lt;#success message#&gt;];</string>
+	<string>completion:(void (^)(BOOL apiSuccess))completion</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AC0A48C0-9531-4B8F-A60B-42408099A9C8</string>
+	<string>BBB3AC71-7A8D-472E-8673-E99FEF64B18A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SVProgressHUD ShowSuccess</string>
+	<string>APISuccessCompletion</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

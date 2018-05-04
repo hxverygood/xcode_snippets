@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mshowsuccess</string>
+	<string>musesimulator</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[SVProgressHUD showSuccessWithStatus:&lt;#success message#&gt;];</string>
+	<string>#if TARGET_IPHONE_SIMULATOR
+#else
+&lt;#some code here#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AC0A48C0-9531-4B8F-A60B-42408099A9C8</string>
+	<string>083D5D6F-0E88-4F02-91E2-AF2C95D1C3EB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SVProgressHUD ShowSuccess</string>
+	<string>If Use Simulator</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
